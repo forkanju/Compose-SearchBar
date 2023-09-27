@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            window.statusBarColor = getColor(R.color.red)
+            window.statusBarColor = getColor(R.color.purple_500)
             MainScreen(viewModel = mainViewModel)
         }
     }

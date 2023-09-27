@@ -3,6 +3,7 @@ package com.example.compose_searchbar.ui.theme
 import androidx.compose.ui.graphics.Color
 
 val md_theme_light_primary = Color(0xFF6750A4)
+val md_theme_my_custom_color = Color(0xFF7D31EA)
 val md_theme_light_onPrimary = Color(0xFFFFFFFF)
 val md_theme_light_primaryContainer = Color(0xFFEADDFF)
 val md_theme_light_onPrimaryContainer = Color(0xFF21005D)

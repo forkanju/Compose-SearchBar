@@ -30,7 +30,7 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.compose_searchbar.ui.theme.md_theme_light_error
+import com.example.compose_searchbar.ui.theme.md_theme_my_custom_color
 
 
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
@@ -141,7 +141,7 @@ fun DefaultAppBar(onSearchClicked: () -> Unit) {
                 }
             )
         },
-    ){}
+    ) {}
 }
 
 
@@ -159,7 +159,7 @@ fun SearchAppBar(
             .fillMaxWidth()
             .height(64.dp),
         shadowElevation = 4.dp,
-        color = md_theme_light_error
+        color = md_theme_my_custom_color
     ) {
 
         TextField(
@@ -173,7 +173,7 @@ fun SearchAppBar(
                     text = "Search here..",
                     color = Color.White,
 
-                )
+                    )
             },
             textStyle = TextStyle(
                 fontSize = MaterialTheme.typography.titleMedium.fontSize,
